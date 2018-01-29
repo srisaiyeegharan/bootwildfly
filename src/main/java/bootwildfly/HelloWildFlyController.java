@@ -12,7 +12,7 @@ public class HelloWildFlyController {
         return ("Hello, SpringBoot on Wildfly");
     }
     
-    @RequestMappint("/hi")
+    @RequestMapping("/hi")
     public String sayHi()
     {
     	return ("Hi, You rock sri!");
