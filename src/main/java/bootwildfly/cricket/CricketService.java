@@ -1,5 +1,8 @@
 package bootwildfly.cricket;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class CricketService {
 	
 	public String getAllClubs()
